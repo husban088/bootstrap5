@@ -1,0 +1,508 @@
+*{
+    background-color: #1F1F1F;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    overflow-x: hidden;
+    box-sizing: border-box;
+}
+
+/* ================= HOME SECTION ================== */
+
+#home{
+    padding-top: 6%;
+  }
+
+.big-heading{
+    color: #fff;
+    font-size: 5rem;
+    margin-left: 5rem;
+    padding-top: 7%;
+
+}
+.second-heading{
+    color: #fff;
+    font-size: 1.5rem;
+    line-height: 1.5;
+    margin: 4rem 0 0 5rem;
+}
+.heading-img{
+    width: 70%;
+    margin-left: 7rem;
+    animation: 5s animate linear infinite;
+}
+
+  .title-btn{
+      margin: 3rem 0 0 5rem;
+  }
+
+/* ================= KEYFRAMES ================== */
+
+@keyframes animate {
+    0%{
+        transform: rotateX(0deg0);
+    }
+    100%{
+        transform: rotateZ(360deg);
+    }
+}
+
+/* ================= ABOUT SECTION ================== */
+
+#about{
+    color: #fff;
+    padding-top: 7%;
+}
+
+.about-img{
+    width: 50%;
+    margin-left: 7rem;
+}
+.about-heading{
+    font-size: 1.7rem;
+    margin-left: 5rem;
+}
+.about-headingtwo{
+    font-size: 4rem;
+    margin-left: 5rem;
+}
+.about-headingth{
+    font-size: 1.5rem;
+    margin-left: 5rem;
+}
+.about-btn{
+    margin-left: 5rem;
+}
+
+
+/* ================= MISSION SECTION ================== */
+
+#mission{
+    color: #fff;
+    padding-top: 7%;
+
+}
+
+.mission-img{
+    width: 50%;
+    margin-left: 7rem;
+}
+
+.mission-heading{
+    font-size: 2rem;
+    margin-left: 5rem;
+}
+.mission-headingt{
+    font-size: 4rem;
+    margin-left: 5rem;
+}
+.mission-para{
+    font-size: 1.3rem;
+    margin-left: 5rem;
+    margin-top: 3rem;
+    font-weight: 500;
+}
+
+
+/* ================= TECHNOLYGY SECTION ================== */
+
+#techonolygy{
+    padding-top: 8%;
+    color: #fff;
+}
+.techonolygy-img{
+     width: 60%;
+     margin-left: 8rem;
+}
+.techonolygy-heading{
+    margin-left: 5rem;
+    font-size: 1.9rem;
+}
+.techonolygy-headingth{
+    margin-left: 5rem;
+    font-size: 5rem;
+}
+.techonolygy-para{
+    margin-left: 5rem;
+    font-size: 1.3rem;
+    margin-top: 3rem;
+}
+
+
+/* ================= SERVICES SECTION ================== */
+
+#services{
+    text-align: center;
+    padding-bottom: 10%;
+}
+#services .container-fluid{
+    padding: 10%;
+}
+.service-icon{
+    font-size: 6rem;
+    color: #1AACA2;
+    margin-bottom: 1.3rem;
+
+}
+.services-heading{
+    margin-bottom: 1.5rem;
+}
+.services-para{
+    font-size: 1.5rem;
+    width: 50%;
+    margin: auto;
+}
+.services-headingon{
+    font-size: 3rem;
+}
+
+/* ================= TEAM SECTION ================== */
+
+#team{
+    padding: 10% 5%;
+}
+#team .team-title{
+    color: #fff;
+    text-align: center;
+    font-size: 2rem;
+}
+.team-short{
+    color: #1AACA2;
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.team-heading{
+    font-size: 1.8rem;
+    margin-left: 5rem;
+}
+.team-headingtw{
+    font-size: 4rem;
+    margin-left: 5rem;
+}
+.social-icon{
+   font-size: 1.2rem;
+   margin-left: 4.5rem;
+   margin-top: 1rem;
+   cursor: pointer;
+}
+
+.social-icon:hover{
+    color: #1AACA2;
+}
+
+.team-btn{
+    margin: 3rem 0 1rem 8rem;
+}
+
+/* ================= PROGRESS SECTION ================== */
+
+#progress{
+  overflow-x: hidden;
+}
+.center1{
+    margin-bottom: 1rem;
+    width: 80%;
+    margin: 0 auto 2rem auto;
+}
+.center2{
+    margin-bottom: 1rem;
+    width: 80%;
+    margin: 0 auto 2rem auto;
+}
+.center3{
+    margin-bottom: 1rem;
+    width: 80%;
+    margin: 0 auto 2rem auto;
+}
+.center4{
+    margin-bottom: 1rem;
+    width: 80%;
+    margin: 0 auto 2rem auto;
+}
+.html{
+    margin-left: 5rem;
+    margin-bottom: 1rem;
+}
+.css{
+    margin-left: 5rem;
+    margin-bottom: 1rem;
+}
+.bootstrap{
+    margin-left: 5rem;
+    margin-bottom: 1rem;
+}
+.javascript{
+    margin-left: 5rem;
+    margin-bottom: 1rem;
+}
+.progress-heading{
+    text-align: center;
+    font-size: 2.4rem;
+}
+.progress-headingth{
+    text-align: center;
+    font-size: 4rem;
+}
+
+ /* ================= PAGINATION SECTION ================== */
+
+
+#pagination{
+    overflow-x: hidden;
+}
+.pagnite{
+    margin-left: 2rem;
+}
+
+ /* ================= EDUCATION SECTION ================== */
+
+#education{
+    padding-bottom: 10%;
+    padding-top: 7%;
+    padding-left: 10%;
+    padding-right: 15%;
+}
+
+.education-heading{
+   margin-left: 2rem;
+   font-size: 2rem;
+}
+.education-headingtw{
+    margin-left: 2rem;
+    font-size: 3rem;
+ }
+
+ /* ================= CONTACT SECTION ================== */
+
+#contact{
+    padding: 0% 15%;
+}
+
+.contact-heading{
+    text-align: center;
+    font-size: 3rem;
+}
+.form-table{
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.contact-btn{
+    margin-left: 5rem;
+}
+
+/* ================= FOOTER SECTION ================== */
+
+.footer{
+    background-color: #151414;
+    padding-top: 5%;
+    padding-bottom: 1%;
+    padding-right: 15%;
+    padding-left: 18%;
+}
+.footer-icon{
+    background-color: #151414;
+    text-align: center;
+}
+.footer-icon a{
+    margin-left: 3rem;
+    font-size: 1.2rem;
+}
+.footer-text{
+    text-align: center;
+    margin-top: 2rem;
+    background-color: #151414;
+}
+.footer-text p{
+    background-color: #151414;
+}
+.footer-icon .footer-icons:hover{
+    color: #1AACA2;
+}
+.footer-icons{
+    background-color: #151414;
+}
+.footer-links a{
+    background-color: #151414;
+}
+.footer-lt{
+    background-color: #151414;
+}
+
+/* ================= PROJECT SECTION ================== */
+
+.project-headingth{
+    color: #fff;
+    text-align: center;
+    font-size: 2rem;
+}
+.project-para{
+    text-align: center;
+    font-size: 1.2rem;
+    margin-top: 2rem;
+    color: #fff;
+}
+
+.project-img{
+    width: 40%;
+    padding-top: 10%;
+ }
+ #projects{
+    padding: 7% 13%;
+ }
+ .project-heading{
+    font-size: 2.2rem;
+    text-align: center;
+ }
+ .project-headingtw{
+    font-size: 3rem;
+    text-align: center;
+ }
+
+ .project-head{
+    margin-top: 5rem;
+ }
+
+/* ================= MEDIA ================== */
+
+@media (max-width:1038px){
+    .big-heading{
+    font-size: 50px;
+    }
+    .about-headingth{
+        font-size: 1.2rem;
+    }
+}
+
+@media (max-width: 500px){
+    .project-headingth{
+        font-size: 1.5rem;
+    }
+    .project-para{
+        font-size: 0.8rem;
+    }
+    .project-heading{
+        font-size: 1.8rem;
+    }
+    .project-headingtw{
+        font-size: 2.4rem;
+    }
+    .contact-heading{
+        font-size: 2.2rem;
+    }
+    #contact{
+        padding-top: 7%;
+        padding-bottom: 5%;
+    }
+    .footer-text{
+        font-size: 0.7rem;
+    }
+    .footer-icons{
+        font-size: 0.8rem;
+    }
+    .education-heading{
+        font-size: 1.5rem;
+    }
+    .education-headingtw{
+        font-size: 2rem;
+    }
+}
+
+@media (max-width: 700px){
+    .services-para{
+        width: 60%;
+        font-size: 1rem;
+        margin: auto;
+    }
+    .table-head{
+        font-size: 0.8rem;
+    }
+    .big-heading{
+        width: 90%;
+        margin: auto;
+    }
+    .second-heading{
+        width: 80%;
+        margin: auto;
+        margin-top: 2rem;
+    }
+    .heading-img{
+        position: relative;
+        right: 60px;
+        margin-top: 2rem;
+    }
+    .about-headingth{
+        width: 100%;
+        margin: auto;
+        margin-top: 2rem;
+    }
+    .about-img{
+        margin-top: 2rem;
+    }
+    .mission-para{
+        width: 90%;
+        margin: auto;
+        margin-top: 2rem;
+    }
+    .mission-img{
+        margin-top: 2rem;
+    }
+}
+
+
+@media (max-width:500px){
+    body{
+
+        text-align: center;
+        overflow-x: hidden;
+    }
+    .mission-heading{
+        margin-left: 3rem;
+    }
+    .mission-headingt{
+        margin-left: 3rem;
+       font-size: 3rem; 
+   }
+   .team-heading{
+    font-size: 1.5rem;
+   }
+   .team-headingtw{
+    font-size: 3rem;
+   }
+   .services-headingon{
+    font-size: 2.5rem;
+   }
+   .progress-heading{
+    font-size: 1.5rem;
+   }
+   .progress-headingth{
+    font-size: 3rem;
+   }
+   #progress{
+    padding-top: 7%;
+   }
+   .center{
+    margin-top: 4rem;
+   }
+}
+
+
+@media (max-width:370px){
+    .social-icon{
+        font-size: 1rem;
+        margin-left: 3.5rem;
+    }
+    .team-btn{
+        margin-left: 5rem;
+    }
+}
+
+@media (max-width: 920px){
+    .services-para{
+        width: 80%;
+        margin: auto;
+    }
+}
